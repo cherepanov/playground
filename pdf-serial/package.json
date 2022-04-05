@@ -1,0 +1,21 @@
+{
+  "name": "is",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack watch --mode development",
+    "node": "node 1.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^2.13.216"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
