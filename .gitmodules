@@ -1,0 +1,3 @@
+[submodule "vue3-offline"]
+	path = vue3-offline
+	url = git@github.com:cherepanov/vue3-offline.git
