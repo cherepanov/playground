@@ -7,13 +7,14 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack watch --mode development",
-    "node": "node 1.js"
+    "start": "ws --http2"
   },
   "dependencies": {
     "qr-scanner": "^1.4.1"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^10.2.4",
+    "local-web-server": "^5.2.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   }
