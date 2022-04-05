@@ -1,0 +1,20 @@
+{
+  "name": "qr-scan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack watch --mode development",
+    "node": "node 1.js"
+  },
+  "dependencies": {
+    "qr-scanner": "^1.4.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
